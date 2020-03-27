@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <ion-row >
+        <ion-col *ngIf="userPicture == null" text-center col-2>
+          <img src="assets/imgs/netflix-avatar.png">
+        </ion-col>
+
+        <ion-avatar *ngIf="userPicture != null" text-center col-2>
+          <img class="round-image" src="{{userPicture}}">
+        </ion-avatar>
+
+        <ion-col col-8>
+          <p *ngIf="userName == null">No Conectado</p>
+          <p *ngIf="userName != null">{{userName}}</p>
+        </ion-col>
+
+        <ion-col text-center col-2>
+        </ion-col>
+      </ion-row>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list class="top-menu-list">
+    <ion-item (click)="goToNotifications()">
+      <ion-icon name="md-notifications" item-start></ion-icon>
+      <p>Notificaciones</p>
+    </ion-item>
+
+    <ion-item (click)="goToMyList()">
+      <ion-icon name="md-checkmark" item-start></ion-icon>
+      <p>Mi Lista</p>
+    </ion-item>
+  </ion-list>
+
+  <ion-list no-lines class="user-menu-list">
+    <ion-item (click)="goToSettings()">
+      <p>Configuracion de la App</p>
+    </ion-item>
+
+    <ion-item (click)="goToPrivacidad()">
+      <p>Aviso de Privacidad</p>
+    </ion-item>
+
+    <ion-item (click)="goToTYC()">
+      <p>Terminos y Condiciones</p>
+    </ion-item>
+
+    <ion-item (click)="signOut()">
+      <p>Salir</p>
+    </ion-item>
+  </ion-list>
+</ion-content>
+

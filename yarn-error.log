@@ -1,0 +1,119 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @angular-material
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\luiiz\AppData\Local\Microsoft\WindowsApps;C:\Users\luiiz\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\luiiz\AppData\Roaming\npm;C:\flutter\bin;C:\Users\luiiz\AppData\Local\Yarn\bin;C:\Users\luiiz\AppData\Local\Android\Sdk\emulator;
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.15.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@angular-material: Request "https://registry.yarnpkg.com/@angular-material" returned a 405
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66044:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140564:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141536:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141458:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1103:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "ion-netflix",
+    "version": "0.0.1",
+    "author": "Ionic Framework",
+    "homepage": "http://ionicframework.com/",
+    "private": true,
+    "scripts": {
+      "clean": "ionic-app-scripts clean",
+      "build": "ionic-app-scripts build",
+      "lint": "ionic-app-scripts lint",
+      "ionic:build": "ionic-app-scripts build",
+      "ionic:serve": "ionic-app-scripts serve"
+    },
+    "dependencies": {
+      "@angular/common": "5.0.3",
+      "@angular/compiler": "5.0.3",
+      "@angular/compiler-cli": "5.0.3",
+      "@angular/core": "5.0.3",
+      "@angular/forms": "5.0.3",
+      "@angular/http": "5.0.3",
+      "@angular/platform-browser": "5.0.3",
+      "@angular/platform-browser-dynamic": "5.0.3",
+      "@ionic-native/core": "4.4.0",
+      "@ionic-native/facebook": "^4.12.2",
+      "@ionic-native/file": "^4.13.0",
+      "@ionic-native/file-transfer": "^4.13.0",
+      "@ionic-native/google-plus": "^4.12.2",
+      "@ionic-native/splash-screen": "4.4.0",
+      "@ionic-native/status-bar": "4.4.0",
+      "@ionic-native/streaming-media": "^4.11.0",
+      "@ionic-native/twitter-connect": "^4.12.2",
+      "@ionic-native/video-player": "^4.11.0",
+      "@ionic/pro": "1.0.20",
+      "@ionic/storage": "^2.1.3",
+      "angularfire2": "^5.0.0-rc.11",
+      "com.moust.cordova.videoplayer": "https://github.com/moust/cordova-plugin-videoplayer.git",
+      "cordova-android": "^6.4.0",
+      "cordova-plugin-device": "^2.0.2",
+      "cordova-plugin-facebook4": "^2.4.0",
+      "cordova-plugin-file": "^6.0.1",
+      "cordova-plugin-file-transfer": "^1.7.1",
+      "cordova-plugin-ionic-keyboard": "^2.1.2",
+      "cordova-plugin-ionic-webview": "^1.2.1",
+      "cordova-plugin-splashscreen": "^5.0.2",
+      "cordova-plugin-streaming-media": "^2.1.2",
+      "cordova-plugin-video-player": "git+https://github.com/moust/cordova-plugin-videoplayer.git",
+      "cordova-plugin-whitelist": "^1.3.3",
+      "cordova-sqlite-storage": "^2.4.0",
+      "firebase": "^5.4.2",
+      "ionic-angular": "3.9.2",
+      "ionicons": "3.0.0",
+      "rxjs": "5.5.2",
+      "sw-toolbox": "3.6.0",
+      "zone.js": "0.8.18"
+    },
+    "devDependencies": {
+      "@ionic/app-scripts": "3.1.8",
+      "@ionic/lab": "2.0.9",
+      "typescript": "2.4.2"
+    },
+    "description": "An Ionic project",
+    "cordova": {
+      "plugins": {
+        "cordova-plugin-whitelist": {},
+        "cordova-plugin-device": {},
+        "cordova-plugin-splashscreen": {},
+        "cordova-plugin-ionic-webview": {},
+        "cordova-plugin-ionic-keyboard": {},
+        "com.moust.cordova.videoplayer": {},
+        "cordova-plugin-streaming-media": {},
+        "cordova-plugin-facebook4": {
+          "APP_ID": "719009611775220",
+          "APP_NAME": "ionNetflix",
+          "ANDROID_SDK_VERSION": "4.+"
+        },
+        "cordova-plugin-file-transfer": {},
+        "cordova-plugin-file": {},
+        "cordova-sqlite-storage": {}
+      },
+      "platforms": [
+        "android"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
